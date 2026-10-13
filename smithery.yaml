@@ -1,0 +1,7 @@
+runtime: python
+version: "3.11"
+entrypoint: server.py
+command: python server.py
+config:
+  transport: sse
+  port: 8000
